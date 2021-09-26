@@ -1,84 +1,148 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Text;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Flashlight : MonoBehaviour
 {
 
-    public GameObject lightObj;
-    private GameObject battery;
+    #region Variables
 
-    public float energyLost;
-    private float maxEnergy = 100f;
-    private float currentEnergy;
-    private float usedEnergy;
-
-    private bool flashEnable;
-
-    private int batteries;
     private GameObject batteryObj;
+    
+    [SerializeField] private Light light;
 
-    //public AudioSource flashlightClick;
-    //public AudioSource batteryPick;
+    [SerializeField] private int maxBatteries = 3;
+    [SerializeField] private int currentBatteries = 1;
+
+    [SerializeField] private float maxEnergy = 100f;
+    [SerializeField] private float currentEnergy;
+    [SerializeField] private float energyUsed;
+
+    [SerializeField] private float energyConsumption = 0.5f;
+
+    [SerializeField] private float maxIntensity = 3;
+
+    [SerializeField] private Text batteryText;
+    [SerializeField] private Text pickupText;
+
+    private bool flashEnabled;
+
+    [SerializeField] private AudioSource toggleSound;
+    [SerializeField] private AudioSource reloadSound;
+
+    [SerializeField] private Image batteryVisual;
+    [SerializeField] private Sprite[] batterySprites = new Sprite[6];
+
+    #endregion
 
 
     void Start()
     {
         currentEnergy = maxEnergy;
-        maxEnergy = 100 * batteries;
+        maxEnergy = 100 * currentBatteries;
     }
 
     void Update()
     {
-        maxEnergy = 100 * batteries;
+        maxEnergy = 100 * currentBatteries;
         currentEnergy = maxEnergy;
+
+        batteryText.text = $"Batteries: {currentBatteries}/{maxBatteries}";
+        
+        UpdateBatteryImage();
         
         if (Input.GetKeyDown(KeyCode.F))
         {
-            flashEnable =! flashEnable;
+            flashEnabled =! flashEnabled;
+            toggleSound.Play();
         }
 
-        if (flashEnable)
+        if (flashEnabled) ToggleOn();
+        else ToggleOff();
+        
+        AddBatteries();
+    }
+
+    public void ToggleOn()
+    {
+        if (currentBatteries > 0)
         {
-            lightObj.SetActive(true);
+            light.enabled = true;
+                
+            float intensityPercentage = currentEnergy / maxEnergy;
+            float intensityFactor = maxIntensity * intensityPercentage; //Calculate the intensity decrease
+            light.intensity = intensityFactor;
 
-            if (currentEnergy <= 0)
-            {
-                lightObj.SetActive(false);
-                batteries = 0;
-            }
-            else
-            {
-                currentEnergy -= energyLost * Time.deltaTime;
-                usedEnergy += energyLost * Time.deltaTime;
-            }
-
-            if (usedEnergy >= 100)
-            {
-                batteries -= 1;
-                usedEnergy = 0;
-            }
-            
+            currentEnergy -= energyConsumption * Time.deltaTime;
+            energyUsed += energyConsumption * Time.deltaTime;
         }
         else
         {
-            lightObj.SetActive(false);
+            light.enabled = false;
+            currentBatteries = 0;
         }
-        
-        Debug.Log("Batteries: " + batteries);
-        Debug.Log("Used Energy: " + usedEnergy);
+
+        if (energyUsed >= 100)
+        {
+            reloadSound.Play();
+            currentBatteries -= 1;
+            energyUsed = 0;
+        }
+    }
+
+    public void ToggleOff() //When toggle off
+    {
+        light.enabled = false;
+    }
+
+    public void AddBatteries() //Battery Picker and checker
+    {
+        if (batteryObj != null)
+        {
+            pickupText.text = "Pick battery (E)";
+            
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                currentBatteries++;
+                pickupText.text = "";
+                Destroy(batteryObj);
+                batteryObj = null;
+            }
+        }
+
+        if (currentBatteries >= maxBatteries) currentBatteries = maxBatteries;
+    }
+
+    public void UpdateBatteryImage()
+    {
+        if (energyUsed >= 100) batteryVisual.sprite = batterySprites[5];
+        if (energyUsed >= 80 && energyUsed <= 99) batteryVisual.sprite = batterySprites[4];
+        if (energyUsed >= 60 && energyUsed <= 79) batteryVisual.sprite = batterySprites[3];
+        if (energyUsed >= 40 && energyUsed <= 59) batteryVisual.sprite = batterySprites[2];
+        if (energyUsed >= 20 && energyUsed <= 39) batteryVisual.sprite = batterySprites[1];
+        if (energyUsed >= 1 && energyUsed <= 19) batteryVisual.sprite = batterySprites[0];
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Battery"))
+        if (other.CompareTag("Battery") && batteryObj == null)
         {
             batteryObj = other.gameObject;
-            batteries += 1;
-            
-            Destroy(batteryObj);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Battery") && batteryObj != null && batteryObj == other.gameObject)
+        {
+            batteryObj = null;
+            pickupText.text = "";
         }
     }
 }
