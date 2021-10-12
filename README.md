@@ -1,2 +1,2 @@
-# 1MonthProject
-This is to test my abilities to create a project I've been thinking off since a long time ago, in only 1 month to show my progress done in that time.
+# Horror Project
+This is the development of my first horror game which I had in mind for a long time.
