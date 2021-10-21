@@ -13,10 +13,9 @@ public class Movement : MonoBehaviour
     
     public float currentStamina;
     public float staminaLoss;
-    private float staminaRecoveryTime = 0;
     private float maxStamina = 100;
     
-    private bool isWalking;
+    //private bool isWalking;
     private bool isExhausted;
     
     //Basic movement
@@ -60,7 +59,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            isWalking = true;
+            //isWalking = true;
 
             if (currentStamina > 0 && currentStamina <= 100)
             {
@@ -76,7 +75,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            isWalking = false;
+            //isWalking = false;
 
             if (currentStamina < 100)
             {

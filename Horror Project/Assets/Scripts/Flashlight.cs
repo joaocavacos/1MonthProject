@@ -6,6 +6,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 using Random = UnityEngine.Random;
 
 public class Flashlight : MonoBehaviour
@@ -15,7 +16,7 @@ public class Flashlight : MonoBehaviour
 
     private GameObject batteryObj;
     
-    [SerializeField] private Light light;
+    [SerializeField] private Light flashLight;
 
     [SerializeField] private int maxBatteries = 3;
     [SerializeField] private int currentBatteries = 1;
@@ -53,7 +54,7 @@ public class Flashlight : MonoBehaviour
         maxEnergy = 100 * currentBatteries;
         currentEnergy = maxEnergy;
 
-        batteryText.text = $"Batteries: {currentBatteries}/{maxBatteries}";
+        batteryText.text = $"{currentBatteries}/{maxBatteries}";
         
         UpdateBatteryImage();
         
@@ -73,18 +74,20 @@ public class Flashlight : MonoBehaviour
     {
         if (currentBatteries > 0)
         {
-            light.enabled = true;
+            flashLight.enabled = true;
                 
             float intensityPercentage = currentEnergy / maxEnergy;
             float intensityFactor = maxIntensity * intensityPercentage; //Calculate the intensity decrease
-            light.intensity = intensityFactor;
+            flashLight.intensity = intensityFactor;
+            
+            //Debug.Log("Intensity: " + flashLight.intensity);
 
             currentEnergy -= energyConsumption * Time.deltaTime;
             energyUsed += energyConsumption * Time.deltaTime;
         }
         else
         {
-            light.enabled = false;
+            flashLight.enabled = false;
             currentBatteries = 0;
         }
 
@@ -98,7 +101,7 @@ public class Flashlight : MonoBehaviour
 
     public void ToggleOff() //When toggle off
     {
-        light.enabled = false;
+        flashLight.enabled = false;
     }
 
     public void AddBatteries() //Battery Picker and checker
