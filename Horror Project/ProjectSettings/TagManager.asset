@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Battery
   - Box
+  - Fuse
+  - FuseBox
   layers:
   - Default
   - TransparentFX
