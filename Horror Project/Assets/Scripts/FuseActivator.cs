@@ -13,12 +13,14 @@ public class FuseActivator : MonoBehaviour
     public GameObject fusesActiveObj;
     public Text fusesText;
     
+    bool fusesActive;
+    
     void Start()
     {
         fuseCollecter = GameObject.FindGameObjectWithTag("Player").GetComponent<FuseCollecter>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -29,10 +31,11 @@ public class FuseActivator : MonoBehaviour
                 {
                     fusesActiveObj.SetActive(true);
                     fuseCollecter.currentFuses = 0;
+                    fusesActive = true;
                     //Power on
                 }
             }
-            else
+            else if(fuseCollecter.currentFuses < requiredFuses && fusesActive == false)
             {
                 fusesText.text = "You need to collect more fuses...";
             }
