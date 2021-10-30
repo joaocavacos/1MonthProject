@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -198,8 +198,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 17
 --- !u!114 &9
@@ -641,23 +641,23 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8abaffff52fbffff003f0000
+      m_ExpandedIDs: 38f9ffffe6440000ec4400000445000066450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: CodeCanvas
+        m_OriginalName: CodeCanvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 17322
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 2}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -697,14 +697,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.81, y: 2, z: 9.68}
+    m_Target: {x: 907.3132, y: 547.0569, z: -60.23}
     speed: 2
-    m_Value: {x: 17.81, y: 2, z: 9.68}
+    m_Value: {x: 907.3132, y: 547.0569, z: -60.23}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -751,17 +751,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10525733, y: -0.8513123, z: 0.18705696, w: -0.4788498}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.10525211, y: -0.8512701, z: 0.18704769, w: -0.47882605}
+    m_Value: {x: -0, y: -0, z: 0, w: -1}
   m_Size:
-    m_Target: 4.166025
+    m_Target: 627.4875
     speed: 2
-    m_Value: 4.166025
+    m_Value: 627.4875
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.49748743
@@ -775,7 +775,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.10525733, y: -0.8513123, z: 0.18705696, w: -0.4788498}
+  m_LastSceneViewRotation: {x: -0.10748467, y: -0.64003485, z: 0.0910219, w: -0.755392}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -821,22 +821,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 51
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 51
-  m_LastProjectPath: E:\Projects\Games\1MonthProject\Horror Project
+  m_LastProjectPath: D:\Projects\Horror-Project\Horror Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 0e400000
-    m_LastClickedID: 16398
-    m_ExpandedIDs: 00000000dc3f0000de3f0000e03f0000e23f0000e43f0000e63f0000e83f0000ea3f0000ec3f000000ca9a3b
+    m_SelectedIDs: ea450000
+    m_LastClickedID: 17898
+    m_ExpandedIDs: 00000000ea450000ec450000ee450000f0450000f2450000f4450000f6450000f8450000fa45000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -864,7 +864,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 443b0000fc3b0000d03a0000
     m_LastClickedID: 15056
-    m_ExpandedIDs: 00000000dc3f0000de3f0000e03f0000e23f0000e43f0000e63f0000e83f0000ea3f0000ec3f0000
+    m_ExpandedIDs: 00000000ea450000ec450000ee450000f0450000f2450000f4450000f6450000f8450000fa450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -891,7 +891,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a63f00007a35000022510000f04700006a56000090560000e43800000c4000009a4b000050420000724200000e550000003d0000683d00008445000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
