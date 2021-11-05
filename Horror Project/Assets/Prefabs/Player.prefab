@@ -125,8 +125,8 @@ MonoBehaviour:
   currentStamina: 0
   staminaLoss: 15
   groundCheck: {fileID: 5715101378460546901}
-  walkSpeed: 4
-  runSpeed: 10
+  walkSpeed: 10
+  runSpeed: 15
   gravity: -39.24
   groundDist: 0.4
   jumpHeight: 2
@@ -152,7 +152,7 @@ MonoBehaviour:
   currentEnergy: 0
   energyUsed: 0
   energyConsumption: 0.5
-  maxIntensity: 3
+  maxIntensity: 6
   batteryText: {fileID: 0}
   pickupText: {fileID: 0}
   toggleSound: {fileID: 0}
@@ -442,10 +442,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 12
-  m_SpotAngle: 50
-  m_InnerSpotAngle: 5
+  m_Intensity: 6
+  m_Range: 15
+  m_SpotAngle: 60
+  m_InnerSpotAngle: 14.450066
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
