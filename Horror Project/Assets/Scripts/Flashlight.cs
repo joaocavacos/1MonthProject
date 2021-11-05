@@ -27,7 +27,7 @@ public class Flashlight : MonoBehaviour
 
     [SerializeField] private float energyConsumption = 0.5f;
 
-    [SerializeField] private float maxIntensity = 3;
+    [SerializeField] private float maxIntensity;
 
     [SerializeField] private Text batteryText;
     [SerializeField] private Text pickupText;

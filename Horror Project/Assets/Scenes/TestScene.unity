@@ -2173,6 +2173,11 @@ PrefabInstance:
       propertyPath: staminaSlider
       value: 
       objectReference: {fileID: 630889500}
+    - target: {fileID: 5715101377001372485, guid: e75ad6072a453b74e81fdca5e16fa649,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e75ad6072a453b74e81fdca5e16fa649, type: 3}
 --- !u!1001 &5991390738623714424

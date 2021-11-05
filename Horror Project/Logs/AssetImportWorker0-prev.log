@@ -1,159 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16338 MB
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8040 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-E:\UnityFiles\2020.3.16f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Projects/Games/1MonthProject/Horror Project
+D:/Projects/Horror-Project/Horror Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60506
-Successfully changed project path to: E:/Projects/Games/1MonthProject/Horror Project
-E:/Projects/Games/1MonthProject/Horror Project
+56557
+Successfully changed project path to: D:/Projects/Horror-Project/Horror Project
+D:/Projects/Horror-Project/Horror Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.98 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 41.86 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
-[Subsystems] Discovering subsystems at path E:/UnityFiles/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Projects/Games/1MonthProject/Horror Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Horror-Project/Horror Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     4075 MB
-    Driver:   27.20.21002.112
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+    VRAM:     4019 MB
+    Driver:   30.0.14.9613
 Initialize mono
-Mono path[0] = 'E:/UnityFiles/2020.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'E:/UnityFiles/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/UnityFiles/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/UnityFiles/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001311 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001727 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.86 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 52.83 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
+- Completed reload, in  1.187 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1121ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (1187ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (507ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (215ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004516 seconds.
+Registered in 0.004069 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001FB7BAFC010 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB79B89C00 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB79ED2450 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.Recorder.Base.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7BB0EA30 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7CEE2240 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7BDFC230 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7BBB4420 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7C503020 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7C531230 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7C531230 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7C154A40 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7C37E010 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7CAE6C30 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7B9CF630 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7BCA7010 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7CC14E20 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FB7D069B10 doesn't match image E:\Projects\Games\1MonthProject\Horror Project\Library\ScriptAssemblies\Unity.Recorder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.92 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.390 seconds
+- Completed reload, in  1.124 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1391ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1124ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1160ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (484ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (375ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2945 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.7 MB.
-System memory in use after: 138.9 MB.
+Unloading 1642 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3404.
-Total: 3.747400 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.078500 ms MarkObjects: 3.232000 ms  DeleteObjects: 0.114400 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 2.721400 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.062800 ms MarkObjects: 2.387600 ms  DeleteObjects: 0.078600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -169,31 +133,1599 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/NewLayer.terrainlayer
   artifactKey: Guid(acd8aa46ca842a446bad274e930aeedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer.terrainlayer using Guid(acd8aa46ca842a446bad274e930aeedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b36f968be1a524a571af157cfdcd17a') in 0.090656 seconds 
-  Import took 0.096299 seconds .
+Start importing Assets/NewLayer.terrainlayer using Guid(acd8aa46ca842a446bad274e930aeedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f786ee3d9eed80cd91265f271c7520c') in 0.133176 seconds 
+  Import took 0.135697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Sounds.mixer
-  artifactKey: Guid(447725d052c20fb4e8d35af0b88bf1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds.mixer using Guid(447725d052c20fb4e8d35af0b88bf1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985594f55679d7f1f1b1a8a7518bcc8c') in 0.009463 seconds 
-  Import took 0.014184 seconds .
+  Time since last request: 0.054226 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(acd8aa46ca842a446bad274e930aeedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(acd8aa46ca842a446bad274e930aeedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f786ee3d9eed80cd91265f271c7520c') in 0.023343 seconds 
+  Import took 0.026464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Music.mixer
-  artifactKey: Guid(4f0035b65626a68409cfcf4584e3f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music.mixer using Guid(4f0035b65626a68409cfcf4584e3f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65612ce9db33425c8ee8ff7e87fa527') in 0.008302 seconds 
-  Import took 0.013120 seconds .
+  Time since last request: 10.489765 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6170b652e791f28e2dae01803c8e71bf') in 0.005798 seconds 
+  Import took 0.018175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053913 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a97e90a9297d5662fa6817e1847a24a') in 0.006033 seconds 
+  Import took 0.009889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.953343 seconds.
+  path: Assets/PSX
+  artifactKey: Guid(86ed9da4c5e4c8340b3c9f01b75b2408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSX using Guid(86ed9da4c5e4c8340b3c9f01b75b2408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aee4227b01693bb6c4d76372df6501') in 0.006053 seconds 
+  Import took 0.009392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.660219 seconds.
+  path: Assets/PSX/URP-PSX-master
+  artifactKey: Guid(72878f158f011604ebe5d8c6ac78e64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSX/URP-PSX-master using Guid(72878f158f011604ebe5d8c6ac78e64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f719918ca59a7c969667d5660b4a5d75') in 0.009150 seconds 
+  Import took 0.019573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014372 seconds.
+  path: Assets/PSX/URP-PSX-master/Media
+  artifactKey: Guid(44e9386c7d31a3f4099ec97435e8ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSX/URP-PSX-master/Media using Guid(44e9386c7d31a3f4099ec97435e8ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bbadcb6537ffbe369ef4f6e49ae2d9') in 0.007164 seconds 
+  Import took 0.011655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.273045 seconds.
+  path: Assets/PSX/URP-PSX-master/URP-PSX
+  artifactKey: Guid(5cebd28d4fa4e9f45a5f736cfa793832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSX/URP-PSX-master/URP-PSX using Guid(5cebd28d4fa4e9f45a5f736cfa793832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0dcefe86d38957d98a7368aee131d5') in 0.009492 seconds 
+  Import took 0.024796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.012080 seconds.
+  path: Assets/PSX/URP-PSX-master/URP-PSX/Assets/Subgraphs
+  artifactKey: Guid(e93e9c6e52b03b44395f1286ae65ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSX/URP-PSX-master/URP-PSX/Assets/Subgraphs using Guid(e93e9c6e52b03b44395f1286ae65ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f81b8f97a87d6287c9fbbb575293fff') in 0.016938 seconds 
+  Import took 0.020355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039470 seconds.
+  path: Assets/PSX/URP-PSX-master/URP-PSX/Assets/Shaders
+  artifactKey: Guid(3e7aca79348652544a47a086a60f34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSX/URP-PSX-master/URP-PSX/Assets/Shaders using Guid(3e7aca79348652544a47a086a60f34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f57d4f0416bf31e92c1b786332a9762') in 0.006902 seconds 
+  Import took 0.023677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.134803 seconds.
+  path: Assets/Images_Sprites/battery-indicator-symbol-different-level-charge_7087-538.png
+  artifactKey: Guid(44c17024543aca5408f86519317bd1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_Sprites/battery-indicator-symbol-different-level-charge_7087-538.png using Guid(44c17024543aca5408f86519317bd1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ffc7fd698c56018c2905cc84ede017') in 0.051932 seconds 
+  Import took 0.056490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.487444 seconds.
+  path: Assets/Models/Shed
+  artifactKey: Guid(e4147f2027b54e94aa62e5fd509eda16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed using Guid(e4147f2027b54e94aa62e5fd509eda16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f83a54e35a31c714dd6142eab19986e') in 0.006091 seconds 
+  Import took 0.010783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.716286 seconds.
+  path: Assets/Models/Shed/The Shed
+  artifactKey: Guid(23b676302c35e8d46bcf3014c22066e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed using Guid(23b676302c35e8d46bcf3014c22066e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ec4264f97dbdfc7b5e54d7c21beec1') in 0.005743 seconds 
+  Import took 0.011528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001235 seconds.
+  path: Assets/Models/Shed/The Shed
+  artifactKey: Guid(23b676302c35e8d46bcf3014c22066e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed using Guid(23b676302c35e8d46bcf3014c22066e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ec4264f97dbdfc7b5e54d7c21beec1') in 0.003343 seconds 
+  Import took 0.006354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059811 seconds.
+  path: Assets/Models/Shed/The Shed/Shed.FBX
+  artifactKey: Guid(8d44a8bf542ec854ab6a6c818ea10b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Shed.FBX using Guid(8d44a8bf542ec854ab6a6c818ea10b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87afbf7428f8a21a6cecfaf9c010d01') in 0.644581 seconds 
+  Import took 0.659906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Models/Shed/The Shed/Shed_Dooranimated.FBX
+  artifactKey: Guid(58a137e40d0932742ab5b4ff3cebea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Shed_Dooranimated.FBX using Guid(58a137e40d0932742ab5b4ff3cebea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af07b52c87f45f4eb4ffe3fa901e18a') in 0.048242 seconds 
+  Import took 0.064285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/_ivy_d.mat
+  artifactKey: Guid(55895d776a2f84c4c97c0d1ba68cb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/_ivy_d.mat using Guid(55895d776a2f84c4c97c0d1ba68cb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f65141664dd6547b0fafe7239e8b27') in 0.030237 seconds 
+  Import took 0.032958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/DecalsRusted0005_2_S.mat
+  artifactKey: Guid(145b688c48ac22e42ad44cda4545ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/DecalsRusted0005_2_S.mat using Guid(145b688c48ac22e42ad44cda4545ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af2525c812f50d3fb993b7a36fdb58c') in 0.012349 seconds 
+  Import took 0.016825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Pompe_color.mat
+  artifactKey: Guid(22c112df2fc8aad4f9d9dcd47dc2f504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Pompe_color.mat using Guid(22c112df2fc8aad4f9d9dcd47dc2f504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f6924b76b17241b9d1673b1cdceb69') in 0.012312 seconds 
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/AeroMachine LP_AeroMachine_color.mat
+  artifactKey: Guid(39f23ee0cc393684692144c8e0bf9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/AeroMachine LP_AeroMachine_color.mat using Guid(39f23ee0cc393684692144c8e0bf9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffadbb2bb1530f3093f37c81a12b761') in 0.012150 seconds 
+  Import took 0.015798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Decal_Debris01.mat
+  artifactKey: Guid(0f1105ad895679542abf86b530efaac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Decal_Debris01.mat using Guid(0f1105ad895679542abf86b530efaac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9b3b1e986f8accd43c78799ea2202b') in 0.012542 seconds 
+  Import took 0.016602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Hache_color.mat
+  artifactKey: Guid(90663431f67e76049a8ca4048612f573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Hache_color.mat using Guid(90663431f67e76049a8ca4048612f573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e900c568c35aadcc5e0da986e341fa') in 0.012374 seconds 
+  Import took 0.016485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/PLaque_Plaque_color.mat
+  artifactKey: Guid(5f4b7ee05a4ee1e41a45a3edaaccd9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/PLaque_Plaque_color.mat using Guid(5f4b7ee05a4ee1e41a45a3edaaccd9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23405c36532cb434115e7fb47329ec77') in 0.012815 seconds 
+  Import took 0.016782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/SerreJoints_color.mat
+  artifactKey: Guid(c8d43d15a8183e24b8652149f5f3eabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/SerreJoints_color.mat using Guid(c8d43d15a8183e24b8652149f5f3eabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e66af0b067693d9ddc6dc036115379') in 0.006563 seconds 
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Etagere_color.mat
+  artifactKey: Guid(4c6c3f8fb3b3a0a498ddfbe449e83972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Etagere_color.mat using Guid(4c6c3f8fb3b3a0a498ddfbe449e83972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7bcaed45bc02e6e4e23bb143f5e9fb') in 0.012337 seconds 
+  Import took 0.025113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Grande EcheLle_Grande Echelle_color.mat
+  artifactKey: Guid(5454b0b08369a564399fb417cf8ab268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Grande EcheLle_Grande Echelle_color.mat using Guid(5454b0b08369a564399fb417cf8ab268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a7e5e55c2f5017b05901016f93b3f8') in 0.013456 seconds 
+  Import took 0.017178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/PlywoodOld0013_2_L.mat
+  artifactKey: Guid(301c3578771a3c143b7ad887389b12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/PlywoodOld0013_2_L.mat using Guid(301c3578771a3c143b7ad887389b12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3757a5cd4def295bfcf7103a50dc5acd') in 0.012460 seconds 
+  Import took 0.015891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Plafond_color.mat
+  artifactKey: Guid(c02b7d35cd6681c429691fb8b1b567a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Plafond_color.mat using Guid(c02b7d35cd6681c429691fb8b1b567a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90af02070dd06e4c063140f145561cb') in 0.012072 seconds 
+  Import took 0.015586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Ampoule_color.mat
+  artifactKey: Guid(b3b34ce0955004e4ca92e4dd63abbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Ampoule_color.mat using Guid(b3b34ce0955004e4ca92e4dd63abbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee641db7ba51e61f98053ab267ef505') in 0.012422 seconds 
+  Import took 0.015127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/3 TourneVis_3_Tournevis_color.mat
+  artifactKey: Guid(26d3b01a216559c41a37cf37a2cf9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/3 TourneVis_3_Tournevis_color.mat using Guid(26d3b01a216559c41a37cf37a2cf9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887e8ebd35367993537fde1db661a225') in 0.011801 seconds 
+  Import took 0.018617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/WoodCutter_WoodClamper_color.mat
+  artifactKey: Guid(8d2405113ffd3404b87546680f2fd163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/WoodCutter_WoodClamper_color.mat using Guid(8d2405113ffd3404b87546680f2fd163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af56d844deb869d50b82c80772ce7572') in 0.012444 seconds 
+  Import took 0.015389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Old Lavabo_OldLavabo_color.mat
+  artifactKey: Guid(c610c1fbc95eba841974df5cb4999625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Old Lavabo_OldLavabo_color.mat using Guid(c610c1fbc95eba841974df5cb4999625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2535ee86e5a70b2d6839f8cecb0b8eac') in 0.012682 seconds 
+  Import took 0.015478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Tretaux_color.mat
+  artifactKey: Guid(1af4d1142e69f9d40818fae93576ff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Tretaux_color.mat using Guid(1af4d1142e69f9d40818fae93576ff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785c6b5eef1e6f9c7c14816ea5721d27') in 0.011682 seconds 
+  Import took 0.021120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/BarkPine0001_M_COLOR.mat
+  artifactKey: Guid(aea9acbd436031045bc8d4e12ee3c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/BarkPine0001_M_COLOR.mat using Guid(aea9acbd436031045bc8d4e12ee3c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64f397846ae5dd5dde0bd18b97f2653') in 0.015734 seconds 
+  Import took 0.019672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Fenetre_Shed Window_color.mat
+  artifactKey: Guid(b3e01b4103934e64980fe4d9b633f52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Fenetre_Shed Window_color.mat using Guid(b3e01b4103934e64980fe4d9b633f52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b293ec166b413dc3aac1ba4cf8138b66') in 0.010732 seconds 
+  Import took 0.016850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Pots de fleurs_Pots de Fleurs_color.mat
+  artifactKey: Guid(492ac54f9b34f124c86a60b8313a8a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Pots de fleurs_Pots de Fleurs_color.mat using Guid(492ac54f9b34f124c86a60b8313a8a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea2fcacf6b2e0c8addb9674285dda47') in 0.011361 seconds 
+  Import took 0.016797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Tuyaux.mat
+  artifactKey: Guid(47884c2635835424ead4ea7650a7a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Tuyaux.mat using Guid(47884c2635835424ead4ea7650a7a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4ae0513288f9e24132c2f4804f5f4e') in 0.011330 seconds 
+  Import took 0.015978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Brouette_color.mat
+  artifactKey: Guid(f9d0f2aaaa47ac34591174da272b37be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Brouette_color.mat using Guid(f9d0f2aaaa47ac34591174da272b37be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662d7654d87ca922dc4072a618c32aa1') in 0.011523 seconds 
+  Import took 0.016917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/ToolBox_color.mat
+  artifactKey: Guid(3753e07af6bd850429d12dd1b9b105a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/ToolBox_color.mat using Guid(3753e07af6bd850429d12dd1b9b105a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeef9a7b61a5f6b3fc55a9032af6983') in 0.011051 seconds 
+  Import took 0.016715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Petite Echelle_color.mat
+  artifactKey: Guid(85bd22385206be54e954329ea1f4e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Petite Echelle_color.mat using Guid(85bd22385206be54e954329ea1f4e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae74ba52a8602393595db91e08ad2492') in 0.011578 seconds 
+  Import took 0.019625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Marteau LP_Marteau_color.mat
+  artifactKey: Guid(0c18d59698545f3419a0a615a6083ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Marteau LP_Marteau_color.mat using Guid(0c18d59698545f3419a0a615a6083ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd3be8854b92c2a2348483480f2809f') in 0.013218 seconds 
+  Import took 0.016620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Bois Coupe_color.mat
+  artifactKey: Guid(8b83717b83c90b546b554195e28f70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Bois Coupe_color.mat using Guid(8b83717b83c90b546b554195e28f70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d9bc34164710ab45b94736485a6c40') in 0.012360 seconds 
+  Import took 0.018486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Boite_Old Box_color.mat
+  artifactKey: Guid(7bad760169f3692429c2c95eb75a94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Boite_Old Box_color.mat using Guid(7bad760169f3692429c2c95eb75a94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87867fd0fc09441a1ed65c0227da913') in 0.013408 seconds 
+  Import took 0.016355 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000247 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(63682192d6ef7ca458f93dc67a7363ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(63682192d6ef7ca458f93dc67a7363ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e271d6e9f4cd1fc09b8a88f2cb5b29ac') in 0.035850 seconds 
-  Import took 0.041236 seconds .
+  path: Assets/Models/Shed/The Shed/Materials/Tronc_color.mat
+  artifactKey: Guid(ddc73c586ba28d04db5755cdddb24c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Tronc_color.mat using Guid(ddc73c586ba28d04db5755cdddb24c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4de1bcd505277e386cb8e7af6118f4') in 0.013500 seconds 
+  Import took 0.018060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/WoodPlanksVarious0010_1_L_COLOR.mat
+  artifactKey: Guid(3cf5c4c0f6287dc4d8ab030cbe97bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/WoodPlanksVarious0010_1_L_COLOR.mat using Guid(3cf5c4c0f6287dc4d8ab030cbe97bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20249542481ad1787121aa3a35d267c4') in 0.013015 seconds 
+  Import took 0.017091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/WoodPlanksDirty0063_M_COLOR.mat
+  artifactKey: Guid(8abdf96d306c66a40857e7675379b0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/WoodPlanksDirty0063_M_COLOR.mat using Guid(8abdf96d306c66a40857e7675379b0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e183f673b06b769b3d5780331eeb42e2') in 0.012564 seconds 
+  Import took 0.017115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Caisse_color.mat
+  artifactKey: Guid(c23b2a5cdcc3bc3418866ef9141ceabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Caisse_color.mat using Guid(c23b2a5cdcc3bc3418866ef9141ceabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b0f2848b0292c991fd9237d02d9853') in 0.013150 seconds 
+  Import took 0.016649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Animated Door_Shed Door_color.mat
+  artifactKey: Guid(f78efd2189e90934298f121c6d4e3003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Animated Door_Shed Door_color.mat using Guid(f78efd2189e90934298f121c6d4e3003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12a1186e6645613034d8943ed126406') in 0.013011 seconds 
+  Import took 0.017579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Chaine_color.mat
+  artifactKey: Guid(5c1b9f7f5bde4564ba751d8fdeb01322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Chaine_color.mat using Guid(5c1b9f7f5bde4564ba751d8fdeb01322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caef6eaa8b010079a3ce2b7f3d9eade') in 0.012957 seconds 
+  Import took 0.016454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Models/Shed/The Shed/Materials
+  artifactKey: Guid(66c3bd791db1ffd43aed264cfcea206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials using Guid(66c3bd791db1ffd43aed264cfcea206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae3d078943cb513d5605f2ee2c134aa') in 0.005508 seconds 
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Bidon_color.mat
+  artifactKey: Guid(d954c990f80c47242b50f007dec59391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Bidon_color.mat using Guid(d954c990f80c47242b50f007dec59391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aef4ae28493b71b5f0179e6a1437942') in 0.012263 seconds 
+  Import took 0.015922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/Chaise_color.mat
+  artifactKey: Guid(60a052ead1c62d14cbf4e923a989d4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/Chaise_color.mat using Guid(60a052ead1c62d14cbf4e923a989d4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197fdfb9cbce526135efd706585542c') in 0.014143 seconds 
+  Import took 0.017694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Models/Shed/The Shed/Materials/WoodPlanksDirty0055_2_M.mat
+  artifactKey: Guid(e07841a2e1d6d3341b384b97d5a98635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Materials/WoodPlanksDirty0055_2_M.mat using Guid(e07841a2e1d6d3341b384b97d5a98635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e462377e445e007c0508c730cb2d3380') in 0.012486 seconds 
+  Import took 0.016208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.891365 seconds.
+  path: Assets/Models/Shed/The Shed/Textures
+  artifactKey: Guid(e507f0ddf196bfb47bfd095d1a51b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures using Guid(e507f0ddf196bfb47bfd095d1a51b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563a67f294c87a6401e9b1e5818e871e') in 0.011600 seconds 
+  Import took 0.014923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Models/Shed/The Shed/Textures
+  artifactKey: Guid(e507f0ddf196bfb47bfd095d1a51b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures using Guid(e507f0ddf196bfb47bfd095d1a51b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563a67f294c87a6401e9b1e5818e871e') in 0.004134 seconds 
+  Import took 0.008245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054200 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/AeroMachine LP_AeroMachine_color.tga
+  artifactKey: Guid(a82054dda62d74642ad18d1600b8842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/AeroMachine LP_AeroMachine_color.tga using Guid(a82054dda62d74642ad18d1600b8842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73577ae6f6f8cdb9ec7b6c31a4314ec4') in 0.024804 seconds 
+  Import took 0.027890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Grande EcheLle_Grande Echelle_nmap.tga
+  artifactKey: Guid(a85b767143de28541aad42c70fd72966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Grande EcheLle_Grande Echelle_nmap.tga using Guid(a85b767143de28541aad42c70fd72966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b82f7a903c2c14a22aad85cd57849c9') in 0.016475 seconds 
+  Import took 0.020310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Bidon_nmap.tga
+  artifactKey: Guid(6e31ccb7130109d449a308afd0b473f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Bidon_nmap.tga using Guid(6e31ccb7130109d449a308afd0b473f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27590c0f70e97b86ffcca74a867145d1') in 0.016833 seconds 
+  Import took 0.020430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Fenetre_Shed Window_nmap.tga
+  artifactKey: Guid(213490fc64628d44bb49fef81a80beb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Fenetre_Shed Window_nmap.tga using Guid(213490fc64628d44bb49fef81a80beb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86763b129cc5a77b37706e79bdda84d4') in 0.014333 seconds 
+  Import took 0.017447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Petite Echelle_specular.tga
+  artifactKey: Guid(df61803bd6d2d4646a9f654c5ffe0a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Petite Echelle_specular.tga using Guid(df61803bd6d2d4646a9f654c5ffe0a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1678417a250e4c70a08125b38472f092') in 0.013259 seconds 
+  Import took 0.016112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Bois Coupe_specular.tga
+  artifactKey: Guid(12225075835e24b40abb56301c9a3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Bois Coupe_specular.tga using Guid(12225075835e24b40abb56301c9a3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f38974922517767742a7bfebb5822b') in 0.013374 seconds 
+  Import took 0.026646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Pots de fleurs_Pots de Fleurs_color.tga
+  artifactKey: Guid(9f6a8d467939dd345a97529703a7a58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Pots de fleurs_Pots de Fleurs_color.tga using Guid(9f6a8d467939dd345a97529703a7a58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0554c4bfd297db5772d66e0f9e3b50de') in 0.013460 seconds 
+  Import took 0.021255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Chaine_specular.tga
+  artifactKey: Guid(c109a1e97c616b54597f885181a01400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Chaine_specular.tga using Guid(c109a1e97c616b54597f885181a01400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2625ddd60bb697b4ac7b20db83c6e402') in 0.012504 seconds 
+  Import took 0.016043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Boite_Old Box_nmap.tga
+  artifactKey: Guid(b4d80c8220164b843b22e611416485ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Boite_Old Box_nmap.tga using Guid(b4d80c8220164b843b22e611416485ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a28c61d033584e9f7880d647d54135') in 0.013381 seconds 
+  Import took 0.016534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/AeroMachine LP_AeroMachine_specular.tga
+  artifactKey: Guid(01382d9984555fb4292301e391883bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/AeroMachine LP_AeroMachine_specular.tga using Guid(01382d9984555fb4292301e391883bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e20349f67bcabad480c21bec8047d') in 0.015935 seconds 
+  Import took 0.027186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Etagere_color.tga
+  artifactKey: Guid(0a13558952df6c1498b28c3930d3c396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Etagere_color.tga using Guid(0a13558952df6c1498b28c3930d3c396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01f7a006ab821fbb398a517d44f7ed8') in 0.016077 seconds 
+  Import took 0.029012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Caisse_nmap.tga
+  artifactKey: Guid(f2c51a3d1b094fb439bf383dbf2b0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Caisse_nmap.tga using Guid(f2c51a3d1b094fb439bf383dbf2b0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba96f7e55856a82c4647cf51b12b28a8') in 0.017197 seconds 
+  Import took 0.020080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Pompe_color.tga
+  artifactKey: Guid(7cf4d3687ec097f4b959e40f94bd220c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Pompe_color.tga using Guid(7cf4d3687ec097f4b959e40f94bd220c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b842803d5ca322ae4b7d12b1f20cd894') in 0.016330 seconds 
+  Import took 0.018840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/SerreJoints_color.tga
+  artifactKey: Guid(038e383133e35e244b903b633dfa3c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/SerreJoints_color.tga using Guid(038e383133e35e244b903b633dfa3c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c23defff37a90977b462b0130db32b') in 0.011228 seconds 
+  Import took 0.015303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Old Lavabo_OldLavabo_color.tga
+  artifactKey: Guid(8667e8bf6a9e9ac4abc863db5eecdddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Old Lavabo_OldLavabo_color.tga using Guid(8667e8bf6a9e9ac4abc863db5eecdddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31dbc7a9bbb87680408273baf6acd24') in 0.016820 seconds 
+  Import took 0.019947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Bois Coupe_color.tga
+  artifactKey: Guid(2b09b0db5fad80b42890d8cf14b223e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Bois Coupe_color.tga using Guid(2b09b0db5fad80b42890d8cf14b223e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211b742d26ed2691e11cffeb815b31dc') in 0.015280 seconds 
+  Import took 0.019430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Animated Door_Shed Door_nmap.tga
+  artifactKey: Guid(4d2b01e7c70a9ee4cb9e6e99d58024d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Animated Door_Shed Door_nmap.tga using Guid(4d2b01e7c70a9ee4cb9e6e99d58024d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47408c7362d41213d60a88de43da2ba2') in 0.018361 seconds 
+  Import took 0.023952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Chaise_color.tga
+  artifactKey: Guid(cf27357ecfcf60549997b79dc1ad247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Chaise_color.tga using Guid(cf27357ecfcf60549997b79dc1ad247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda3fc392b74cbf26e495f462275c9a0') in 0.013446 seconds 
+  Import took 0.020366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Chaise_nmap.tga
+  artifactKey: Guid(0d9ea727f965f5141845b8df38fc4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Chaise_nmap.tga using Guid(0d9ea727f965f5141845b8df38fc4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fb56b34f3da0e62db38e6ee205d190') in 0.014231 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/DecalsRusted_spec.tga
+  artifactKey: Guid(57f8ffa6680fdd044a2752a5134fa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/DecalsRusted_spec.tga using Guid(57f8ffa6680fdd044a2752a5134fa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e722513a24e936100fcd75247b4ebe8') in 0.013196 seconds 
+  Import took 0.018830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Pompe_specular.tga
+  artifactKey: Guid(1d6a60dfcbda0a0489d039d28d682f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Pompe_specular.tga using Guid(1d6a60dfcbda0a0489d039d28d682f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f82b2b511719e0ac27ea329a45714') in 0.014388 seconds 
+  Import took 0.017939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Fenetre_Shed Window_color.tga
+  artifactKey: Guid(f6cb2b13daba80342b2bff57469be8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Fenetre_Shed Window_color.tga using Guid(f6cb2b13daba80342b2bff57469be8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac74fecef0dcf536032d5c64a87ce8c0') in 0.017374 seconds 
+  Import took 0.022036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Grande EcheLle_Grande Echelle_color.tga
+  artifactKey: Guid(1d92d5036dde2514da8ff3d40b18f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Grande EcheLle_Grande Echelle_color.tga using Guid(1d92d5036dde2514da8ff3d40b18f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006fbc469358bdb082e25846b50d9415') in 0.015044 seconds 
+  Import took 0.018242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/PlywoodOld0013_2_nrm.jpg
+  artifactKey: Guid(b92dd77ada9d673489514bcfca278d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/PlywoodOld0013_2_nrm.jpg using Guid(b92dd77ada9d673489514bcfca278d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b00e7ac306798ce66f37191c2d3afc1') in 0.019813 seconds 
+  Import took 0.023278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Pots de fleurs_Pots de Fleurs_specular.tga
+  artifactKey: Guid(e12566ddde0b8194297e2729d1c2bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Pots de fleurs_Pots de Fleurs_specular.tga using Guid(e12566ddde0b8194297e2729d1c2bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b027cc032a913f563351d4f4b25ba86') in 0.021634 seconds 
+  Import took 0.024878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Caisse_specular.tga
+  artifactKey: Guid(503e1014c1ed6b945b10087f76f27429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Caisse_specular.tga using Guid(503e1014c1ed6b945b10087f76f27429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1c7b245838546394b83efcd0036d7c') in 0.015748 seconds 
+  Import took 0.018596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/DecalsRusted0005_2_S.jpg
+  artifactKey: Guid(1aa6319c8e7b5274d993ec0420a9842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/DecalsRusted0005_2_S.jpg using Guid(1aa6319c8e7b5274d993ec0420a9842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6277ea4d34fe4fce44a1e3cb534736fa') in 0.013166 seconds 
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Hache_nmap.tga
+  artifactKey: Guid(3f271aad0a19fe746a3ad7042b5667c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Hache_nmap.tga using Guid(3f271aad0a19fe746a3ad7042b5667c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32e9bc927b1a636d3624ef065aaca51') in 0.014446 seconds 
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/PlywoodOld0013_2_L.jpg
+  artifactKey: Guid(8e8dff6705c2a38438d6d3aedc29ac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/PlywoodOld0013_2_L.jpg using Guid(8e8dff6705c2a38438d6d3aedc29ac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ec365c19de175d81f363bb3b7a4ef9') in 0.017367 seconds 
+  Import took 0.020840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tableau a Outils_Tableau Tools_color.tga
+  artifactKey: Guid(11e45ec77ad08af4cb7915b072494a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tableau a Outils_Tableau Tools_color.tga using Guid(11e45ec77ad08af4cb7915b072494a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259c4db2e722d93fdadf374d833277f3') in 0.056402 seconds 
+  Import took 0.073010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Old Lavabo_OldLavabo_nmap.tga
+  artifactKey: Guid(6d0a722e6d61dde449928638f3582869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Old Lavabo_OldLavabo_nmap.tga using Guid(6d0a722e6d61dde449928638f3582869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9073560dd9c553de14a94a8ab7d13152') in 0.020914 seconds 
+  Import took 0.023723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Plafond_nmap.tga
+  artifactKey: Guid(ea8d0e50b1cbee74784828035065a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Plafond_nmap.tga using Guid(ea8d0e50b1cbee74784828035065a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a6d9c4465479332098246fe99a6ce6') in 0.013159 seconds 
+  Import took 0.016482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Chaine_nmap.tga
+  artifactKey: Guid(7b2e152deb27cce47b805c0de1a2383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Chaine_nmap.tga using Guid(7b2e152deb27cce47b805c0de1a2383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6eb724593b4d2fcd4363bc5cf019a3') in 0.016311 seconds 
+  Import took 0.025428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Animated Door_Shed Door_color.tga
+  artifactKey: Guid(d979d6f95edd2c949a087e4088d5b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Animated Door_Shed Door_color.tga using Guid(d979d6f95edd2c949a087e4088d5b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3485ed3db0002ace9e5b4aedd9b1fdc') in 0.017401 seconds 
+  Import took 0.031996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Hache_specular.tga
+  artifactKey: Guid(827f452186b789245815e36665532e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Hache_specular.tga using Guid(827f452186b789245815e36665532e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920d720184814eb2ab20f2a8057a8d43') in 0.012085 seconds 
+  Import took 0.021140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Ampoule_specular.tga
+  artifactKey: Guid(ce5244254bcc0964997356e9c5e6250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Ampoule_specular.tga using Guid(ce5244254bcc0964997356e9c5e6250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc34f22f399ef0c4f7d86fef809309ab') in 0.028818 seconds 
+  Import took 0.032588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0063_M_Nrm.jpg
+  artifactKey: Guid(ef583d20f29dbfb449e2a69f89400a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0063_M_Nrm.jpg using Guid(ef583d20f29dbfb449e2a69f89400a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0693c3d1732406170e5d7d6331dab557') in 0.014353 seconds 
+  Import took 0.017497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tuyaux.jpg
+  artifactKey: Guid(7d2f293d76bda6641a465ba37ed17939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tuyaux.jpg using Guid(7d2f293d76bda6641a465ba37ed17939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5362c7c7bd7c30797cbf0d301df853a3') in 0.013657 seconds 
+  Import took 0.020883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/ToolBox_nmap.tga
+  artifactKey: Guid(233a8cf1568a1af4dbde7e61800c4994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/ToolBox_nmap.tga using Guid(233a8cf1568a1af4dbde7e61800c4994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a628bb04bb6750ff0111a7991bb6a7f') in 0.012394 seconds 
+  Import took 0.018656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodCutter_WoodClamper_specular.tga
+  artifactKey: Guid(d0fbcc5eba033cf42b664ba33ad7d127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodCutter_WoodClamper_specular.tga using Guid(d0fbcc5eba033cf42b664ba33ad7d127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dceca1c7b47a5ecc377ad0befc153b2') in 0.012165 seconds 
+  Import took 0.016171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Boite_Old Box_color.tga
+  artifactKey: Guid(a8c73520447844a4db725c1d68813234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Boite_Old Box_color.tga using Guid(a8c73520447844a4db725c1d68813234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35edca78112b314b5c4eef2f62fa8b0') in 0.015557 seconds 
+  Import took 0.018563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tretaux_specular.tga
+  artifactKey: Guid(6fcd999c0a85de443967381be848cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tretaux_specular.tga using Guid(6fcd999c0a85de443967381be848cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17d6350e04af167834d1de11fa7228a') in 0.041418 seconds 
+  Import took 0.055085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Boite_Old Box_specular.tga
+  artifactKey: Guid(871d36da52f4b984181f09529db89b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Boite_Old Box_specular.tga using Guid(871d36da52f4b984181f09529db89b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b8a827507653cbe6eb2601d29dd010') in 0.014529 seconds 
+  Import took 0.017106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Chaise_specular.tga
+  artifactKey: Guid(40f19f4309a23a544a3a1a53da8fd10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Chaise_specular.tga using Guid(40f19f4309a23a544a3a1a53da8fd10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac4907268e26d8cdcf1e61e476e8376') in 0.034406 seconds 
+  Import took 0.037624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Decal_Debris01_NRM.tga
+  artifactKey: Guid(2070546588c56984ab28c5cd55d794b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Decal_Debris01_NRM.tga using Guid(2070546588c56984ab28c5cd55d794b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bb93ee92bba02218b4e3be77269134') in 0.053103 seconds 
+  Import took 0.056964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Bois Coupe_nmap.tga
+  artifactKey: Guid(972d8995cd723684e9cf3010137183c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Bois Coupe_nmap.tga using Guid(972d8995cd723684e9cf3010137183c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc446768d169527bd3a44ca0a2defb85') in 0.018380 seconds 
+  Import took 0.021658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Etagere_specular.tga
+  artifactKey: Guid(64bab5d25ef78d043b4ae3cc3e467bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Etagere_specular.tga using Guid(64bab5d25ef78d043b4ae3cc3e467bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ad133717d3710dc262c8370592d25f') in 0.065379 seconds 
+  Import took 0.068434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Grande EcheLle_Grande Echelle_specular.tga
+  artifactKey: Guid(1f3e1b6ba19815940b1832c09f9b194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Grande EcheLle_Grande Echelle_specular.tga using Guid(1f3e1b6ba19815940b1832c09f9b194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4721c0f96ed150f7af5f1512cdaf19') in 0.056135 seconds 
+  Import took 0.058771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/AeroMachine LP_AeroMachine_nmap.tga
+  artifactKey: Guid(e824f02910b9a134bac47d31e949d4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/AeroMachine LP_AeroMachine_nmap.tga using Guid(e824f02910b9a134bac47d31e949d4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989654d8816a2208ff9003b17855055f') in 0.012528 seconds 
+  Import took 0.016397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Caisse_color.tga
+  artifactKey: Guid(89bd6c2e31e18354b91500d2596da4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Caisse_color.tga using Guid(89bd6c2e31e18354b91500d2596da4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9e00d33e055e59e15d60ab56067487') in 0.012015 seconds 
+  Import took 0.016559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Plafond_specular.tga
+  artifactKey: Guid(a3d7ae56e508729479048f8700c18e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Plafond_specular.tga using Guid(a3d7ae56e508729479048f8700c18e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ad69ea0e38929be67b1b670669971c') in 0.012993 seconds 
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/PLaque_Plaque_specular.tga
+  artifactKey: Guid(447e50c9004dd7c4c833c87eeac1731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/PLaque_Plaque_specular.tga using Guid(447e50c9004dd7c4c833c87eeac1731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7848b70b31d65f4d5c8c0b0f2a239feb') in 0.014672 seconds 
+  Import took 0.018495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Brouette_specular.tga
+  artifactKey: Guid(a02af8f92a3c7a94c821eaf683b48d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Brouette_specular.tga using Guid(a02af8f92a3c7a94c821eaf683b48d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dcd31a3d2b00a421aa30c6e35d9bf4') in 0.014622 seconds 
+  Import took 0.017793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tableau_specular.tga
+  artifactKey: Guid(282ae4aa82b74094d8c341fee15c2ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tableau_specular.tga using Guid(282ae4aa82b74094d8c341fee15c2ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acffaeb25159a7792d5c090ee287ce12') in 0.046738 seconds 
+  Import took 0.049343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tretaux_nmap.tga
+  artifactKey: Guid(db1957ecd510e784885324ee4f51014f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tretaux_nmap.tga using Guid(db1957ecd510e784885324ee4f51014f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cad55b23aa2b1a91c00d222933d8fcc') in 0.014280 seconds 
+  Import took 0.017014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Marteau LP_Marteau_nmap.tga
+  artifactKey: Guid(f894c299be6a7174aa5d450b33c83a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Marteau LP_Marteau_nmap.tga using Guid(f894c299be6a7174aa5d450b33c83a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a86e2074620236b2850ce1950267a5') in 0.022291 seconds 
+  Import took 0.036824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/CutMachine_color.tga
+  artifactKey: Guid(54bab8dee0a097b4c8c8e39fa1014489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/CutMachine_color.tga using Guid(54bab8dee0a097b4c8c8e39fa1014489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d311c8feefe89c4f5111e1cb51649e0') in 0.027719 seconds 
+  Import took 0.030446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/ToolBox_specular.tga
+  artifactKey: Guid(f018e7350eec4aa46961d3607283972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/ToolBox_specular.tga using Guid(f018e7350eec4aa46961d3607283972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef384aef741501d7554c097a9000bfc') in 0.015678 seconds 
+  Import took 0.018216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/SerreJoints_nmap.tga
+  artifactKey: Guid(4fd3a8688dc848948951aa977cbd428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/SerreJoints_nmap.tga using Guid(4fd3a8688dc848948951aa977cbd428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c138634e991523c233423278c04d082') in 0.012202 seconds 
+  Import took 0.015457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Brouette_nmap.tga
+  artifactKey: Guid(403efc2f9e67866468ce3e4841500c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Brouette_nmap.tga using Guid(403efc2f9e67866468ce3e4841500c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7235ad09af22a1026e9cd7282db055d') in 0.016262 seconds 
+  Import took 0.020304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tableau_nmap.tga
+  artifactKey: Guid(a031f656d6af5e34c9419f4d8bbee904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tableau_nmap.tga using Guid(a031f656d6af5e34c9419f4d8bbee904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1409685d7248111e3533784893e64c9') in 0.050631 seconds 
+  Import took 0.054460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Fenetre_Shed Window_specular.tga
+  artifactKey: Guid(0b90c978fb9868f4bb7cc93abeb3f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Fenetre_Shed Window_specular.tga using Guid(0b90c978fb9868f4bb7cc93abeb3f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfac39a17dbae7b74afe9735f472deb') in 0.013486 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Decal_Debris01.tga
+  artifactKey: Guid(dc8c6cd9172029e4b8d453042f42a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Decal_Debris01.tga using Guid(dc8c6cd9172029e4b8d453042f42a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55607b1fab953e3f670baa2a94eea62f') in 0.013819 seconds 
+  Import took 0.032886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Bidon_color.tga
+  artifactKey: Guid(5090b5b3b16fe9240abcbc99d860919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Bidon_color.tga using Guid(5090b5b3b16fe9240abcbc99d860919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7304b3ee6bab7240b642778f3267375') in 0.014848 seconds 
+  Import took 0.027590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Plafond_color.tga
+  artifactKey: Guid(7d7c5e33ecc9d614e9182523ba381940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Plafond_color.tga using Guid(7d7c5e33ecc9d614e9182523ba381940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ffdc07795e247d021e951597fadd8d') in 0.012589 seconds 
+  Import took 0.016832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Petite Echelle_nmap.tga
+  artifactKey: Guid(98b5baee2cc335c4a99c7a6b10973688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Petite Echelle_nmap.tga using Guid(98b5baee2cc335c4a99c7a6b10973688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e9b7663fec5038a674886726b5cd4e') in 0.012822 seconds 
+  Import took 0.024267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Ampoule_color.tga
+  artifactKey: Guid(f497fd8a6eab2c4429593d9dc419af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Ampoule_color.tga using Guid(f497fd8a6eab2c4429593d9dc419af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5acf9edbe84a9e9c35ad52d25ce648') in 0.015128 seconds 
+  Import took 0.018726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Hache_color.tga
+  artifactKey: Guid(8ea760147c5679d4a9ecacd32eaf4c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Hache_color.tga using Guid(8ea760147c5679d4a9ecacd32eaf4c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d2abc309c948f9743a9a0329824b15') in 0.012260 seconds 
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0063_M_COLOR.jpg
+  artifactKey: Guid(9add8ab4a650c544486aaadb2df74833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0063_M_COLOR.jpg using Guid(9add8ab4a650c544486aaadb2df74833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb02044c4cd9429a3a5284ae8ad00b0') in 0.013650 seconds 
+  Import took 0.017534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodPlanksVarious0010_1_L_COLOR.jpg
+  artifactKey: Guid(78d2a5731bd1482468446bf90196b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodPlanksVarious0010_1_L_COLOR.jpg using Guid(78d2a5731bd1482468446bf90196b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db9e84f837004a1074772724d199cd8') in 0.015638 seconds 
+  Import took 0.019262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Pompe_nmap.tga
+  artifactKey: Guid(1d27a99c94ce74947818387edbdc484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Pompe_nmap.tga using Guid(1d27a99c94ce74947818387edbdc484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4004dd916c93be694d0f644d34913c5') in 0.015170 seconds 
+  Import took 0.018530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Chaine_color.tga
+  artifactKey: Guid(8f2eaad09683b8a4285534eba576f6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Chaine_color.tga using Guid(8f2eaad09683b8a4285534eba576f6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8accb9150b2a511cbb046e75f055ecf') in 0.011702 seconds 
+  Import took 0.015609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/SerreJoints_specular.tga
+  artifactKey: Guid(9bf98ff7f00c1d548a5cfbd2bf366e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/SerreJoints_specular.tga using Guid(9bf98ff7f00c1d548a5cfbd2bf366e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b44ffbba3a14eaeeffa74c116557b32') in 0.013476 seconds 
+  Import took 0.016345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/CutMachine_nmap.tga
+  artifactKey: Guid(ff5c173a1c15da941a40ac8a37ed52a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/CutMachine_nmap.tga using Guid(ff5c173a1c15da941a40ac8a37ed52a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48c1aef7d1d48f5db260742f12d7505') in 0.043425 seconds 
+  Import took 0.046523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodCutter_WoodClamper_nmap.tga
+  artifactKey: Guid(b55458bd0a16ccf48ba1c76908cc0926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodCutter_WoodClamper_nmap.tga using Guid(b55458bd0a16ccf48ba1c76908cc0926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0413e72968b6500be9817519b8348055') in 0.012226 seconds 
+  Import took 0.015136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Bidon_specular.tga
+  artifactKey: Guid(ee38288072bd3fd4a982289c49f6651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Bidon_specular.tga using Guid(ee38288072bd3fd4a982289c49f6651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a28c54c43c496e297920fc4e8b7b713') in 0.015104 seconds 
+  Import took 0.018339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Marteau LP_Marteau_specular.tga
+  artifactKey: Guid(211a8e420b1dc4545baf6e6bf5f51601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Marteau LP_Marteau_specular.tga using Guid(211a8e420b1dc4545baf6e6bf5f51601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a912d527bc1873cd60671ce2fbe9fb7') in 0.012012 seconds 
+  Import took 0.015500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tableau a Outils_Tableau Tools_specular.tga
+  artifactKey: Guid(20ad53d421c0aab49b932fcb266e321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tableau a Outils_Tableau Tools_specular.tga using Guid(20ad53d421c0aab49b932fcb266e321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a8b6c103eeef862e26ca6cbe8af8ae') in 0.076024 seconds 
+  Import took 0.080159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/ToolBox_color.tga
+  artifactKey: Guid(25e58be5254fb1d4890f5d5b434f6918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/ToolBox_color.tga using Guid(25e58be5254fb1d4890f5d5b434f6918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f106f4312491d971fbd5744e9f4e5a0a') in 0.024886 seconds 
+  Import took 0.029742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Marteau LP_Marteau_color.tga
+  artifactKey: Guid(3c15540cb42bd3145ac8734a16299cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Marteau LP_Marteau_color.tga using Guid(3c15540cb42bd3145ac8734a16299cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba6e6ea7a7a75b56f278909d3266924') in 0.013730 seconds 
+  Import took 0.017096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodPlanksVarious0010_1_L_Nrm.jpg
+  artifactKey: Guid(8ba7a8857ca9a364c881b0f4f1e52c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodPlanksVarious0010_1_L_Nrm.jpg using Guid(8ba7a8857ca9a364c881b0f4f1e52c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8daf0c8c55cba97d85d5e980110b80') in 0.017733 seconds 
+  Import took 0.021503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0055_2_Nrm.jpg
+  artifactKey: Guid(208f888cb8e81f24385c6fc3e6574b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0055_2_Nrm.jpg using Guid(208f888cb8e81f24385c6fc3e6574b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc2361d84ffebf4c899d2b900ad6193') in 0.014467 seconds 
+  Import took 0.017368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/BarkPine0001_M_COLOR.jpg
+  artifactKey: Guid(a83bec4f596d800409c2ee62a392491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/BarkPine0001_M_COLOR.jpg using Guid(a83bec4f596d800409c2ee62a392491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3e7aab12e3013b0f6ebdd27b54fd24') in 0.013290 seconds 
+  Import took 0.016340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Petite Echelle_color.tga
+  artifactKey: Guid(1a9ee8c6bb61adc40ab270fb5b3ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Petite Echelle_color.tga using Guid(1a9ee8c6bb61adc40ab270fb5b3ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52218608776074bc4782e27a038cf2a') in 0.012578 seconds 
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/PLaque_Plaque_color.tga
+  artifactKey: Guid(392038f888486064ba80a063e8ad5e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/PLaque_Plaque_color.tga using Guid(392038f888486064ba80a063e8ad5e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fa4b5acc2968e0526044192dc3a49c') in 0.011922 seconds 
+  Import took 0.014813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0055_2_M.jpg
+  artifactKey: Guid(a930640e6e3848c47a5da84a8c818aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodPlanksDirty0055_2_M.jpg using Guid(a930640e6e3848c47a5da84a8c818aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95913cdd9ef0ce89d2dc86650ce41cfa') in 0.013275 seconds 
+  Import took 0.018818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Ampoule_nmap.tga
+  artifactKey: Guid(d80ddde37e3aa914195501cc9123ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Ampoule_nmap.tga using Guid(d80ddde37e3aa914195501cc9123ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee2ef2b2b4365ee8553e54dec9142e4') in 0.013070 seconds 
+  Import took 0.016707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tableau_color.tga
+  artifactKey: Guid(4d3bb0deecd3a9b40b873ca89be60475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tableau_color.tga using Guid(4d3bb0deecd3a9b40b873ca89be60475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f7812f666d921a4d5731382aa671e9') in 0.052841 seconds 
+  Import took 0.056800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/DecalsRusted_nrm.jpg
+  artifactKey: Guid(dcfe93b7fa987044cb6e1dd82e008f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/DecalsRusted_nrm.jpg using Guid(dcfe93b7fa987044cb6e1dd82e008f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac4b65c74061867457e73f5dc0ef229') in 0.014527 seconds 
+  Import took 0.030824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/WoodCutter_WoodClamper_color.tga
+  artifactKey: Guid(4cc409b6400c4b54493f88baffb0b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/WoodCutter_WoodClamper_color.tga using Guid(4cc409b6400c4b54493f88baffb0b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4710ee9380d5de9df40a87326abb93a') in 0.016079 seconds 
+  Import took 0.019746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Brouette_color.tga
+  artifactKey: Guid(1fe571e307cfde04f86dd8eb223c8d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Brouette_color.tga using Guid(1fe571e307cfde04f86dd8eb223c8d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6cd19559b197394e2240c62c0e8888') in 0.015179 seconds 
+  Import took 0.018621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/CutMachine_specular.tga
+  artifactKey: Guid(3f397323fcab3a246a95f6da866dc3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/CutMachine_specular.tga using Guid(3f397323fcab3a246a95f6da866dc3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43ea9d98db8e524524999acf8a4a12e') in 0.030086 seconds 
+  Import took 0.033325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tronc_color.tga
+  artifactKey: Guid(91e418355ec98314cb1d7b37df1e5d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tronc_color.tga using Guid(91e418355ec98314cb1d7b37df1e5d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcafb52542f7e38145b0d27a649c6c6a') in 0.014430 seconds 
+  Import took 0.027798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tronc_nmap.tga
+  artifactKey: Guid(91fb42043d98c604a9a520fcf3caa916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tronc_nmap.tga using Guid(91fb42043d98c604a9a520fcf3caa916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4008bb804ddc369ec0a5a28654c62da') in 0.017177 seconds 
+  Import took 0.021267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tretaux_color.tga
+  artifactKey: Guid(750de61bad942784c8fc6c14405fc5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tretaux_color.tga using Guid(750de61bad942784c8fc6c14405fc5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521bf2acd01c0c7ccec8814f72a0a3d5') in 0.012875 seconds 
+  Import took 0.016005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Tableau a Outils_Tableau Tools_nmap.tga
+  artifactKey: Guid(6e1d7108b768b7440837381723cde0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Tableau a Outils_Tableau Tools_nmap.tga using Guid(6e1d7108b768b7440837381723cde0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e59bc966b70ffe58084b469e932c20') in 0.037178 seconds 
+  Import took 0.040163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Etagere_nmap.tga
+  artifactKey: Guid(8c194324757df994db65e6f9b2502200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Etagere_nmap.tga using Guid(8c194324757df994db65e6f9b2502200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71ab9de4a60dc27f1733190643b93f0') in 0.015609 seconds 
+  Import took 0.020423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Old Lavabo_OldLavabo_specular.tga
+  artifactKey: Guid(c8f36c75627ae3d43a0a4eec6275ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Old Lavabo_OldLavabo_specular.tga using Guid(c8f36c75627ae3d43a0a4eec6275ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63129ce0aaadbb3edbbde7e94c4aade8') in 0.013649 seconds 
+  Import took 0.032061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/Animated Door_Shed Door_specular.tga
+  artifactKey: Guid(91e2074de3a27a842802e2d0c07e2206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/Animated Door_Shed Door_specular.tga using Guid(91e2074de3a27a842802e2d0c07e2206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64913832079cbc1a39bf7ca6bd1482f4') in 0.022477 seconds 
+  Import took 0.027868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Models/Shed/The Shed/Textures/PLaque_Plaque_nmap.tga
+  artifactKey: Guid(4d6ea5bc5ed56234085cd0052b85ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shed/The Shed/Textures/PLaque_Plaque_nmap.tga using Guid(4d6ea5bc5ed56234085cd0052b85ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf260764cc5e8bca45a87037bef1081') in 0.014395 seconds 
+  Import took 0.022093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.808599 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack
+  artifactKey: Guid(0401787c7400ebf45a0605d0f524229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack using Guid(0401787c7400ebf45a0605d0f524229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189c24bc38dbacc5c7433c05db78fe54') in 0.007009 seconds 
+  Import took 0.009983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911493 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials
+  artifactKey: Guid(667604b8450e44533baa24a499b089ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials using Guid(667604b8450e44533baa24a499b089ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6392c5c35ec1ff6d33aa76278ff6a859') in 0.001778 seconds 
+  Import took 0.005094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069378 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/25SL.mat
+  artifactKey: Guid(ffdcc393190e84459b9f067f0711f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/25SL.mat using Guid(ffdcc393190e84459b9f067f0711f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766efc0b575b9424cb7317d5ecc73c43') in 0.016462 seconds 
+  Import took 0.019185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/YellowPaiint.mat
+  artifactKey: Guid(9dd7a8dab6514489ba1a1486845f9774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/YellowPaiint.mat using Guid(9dd7a8dab6514489ba1a1486845f9774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8625238e5a7c47ee317d438d8cbb406e') in 0.042078 seconds 
+  Import took 0.046006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/MeterStickers.mat
+  artifactKey: Guid(0b055ea7ea342475694c217c9c51ac8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/MeterStickers.mat using Guid(0b055ea7ea342475694c217c9c51ac8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd515c8c7705c6120a4d0520615777393') in 0.029890 seconds 
+  Import took 0.032860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/TwoWay.mat
+  artifactKey: Guid(00521517c21764ab29a28da4bbebcc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/TwoWay.mat using Guid(00521517c21764ab29a28da4bbebcc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f665ee525e273c299bab6d2f9570265') in 0.026938 seconds 
+  Import took 0.030175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/BlackPaint 1.mat
+  artifactKey: Guid(41a3d411a1de84c84b11fead088898f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/BlackPaint 1.mat using Guid(41a3d411a1de84c84b11fead088898f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea121a82edd7f0f68804ca38b7bb6e') in 0.036726 seconds 
+  Import took 0.064654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Wood 1.mat
+  artifactKey: Guid(e74dfb2e81f494e3aa1bb59959b32c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Wood 1.mat using Guid(e74dfb2e81f494e3aa1bb59959b32c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1b9bdede887d3375cd93850ec7f94b') in 0.017865 seconds 
+  Import took 0.031452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/MeterStickers 1.mat
+  artifactKey: Guid(38ee31cef22ac4d7ab3ea78e8c0347ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/MeterStickers 1.mat using Guid(38ee31cef22ac4d7ab3ea78e8c0347ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d234dd6349f35f7138d012ed3e65e') in 0.029617 seconds 
+  Import took 0.032896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/WhitePaint.mat
+  artifactKey: Guid(d509568613d9340a3aeb9a465a1988a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/WhitePaint.mat using Guid(d509568613d9340a3aeb9a465a1988a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fcf22fdb8a326feb86c01384998abd') in 0.027965 seconds 
+  Import took 0.032767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Metal2.mat
+  artifactKey: Guid(bdc593c7a58dc4c3f92c51dcf1662257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Metal2.mat using Guid(bdc593c7a58dc4c3f92c51dcf1662257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a985c186e2d891423a9ea629978d64') in 0.015317 seconds 
+  Import took 0.027559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/RedLight.mat
+  artifactKey: Guid(eda6ee7f410dd4142aca765598f1c132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/RedLight.mat using Guid(eda6ee7f410dd4142aca765598f1c132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5790e6eec7c8b8ceef59505469dd4083') in 0.017881 seconds 
+  Import took 0.023785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/road work.mat
+  artifactKey: Guid(9349628e6cefa4d3996166ca2bdff133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/road work.mat using Guid(9349628e6cefa4d3996166ca2bdff133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406f9ba4367a3c0dd2aba42a1dd639bb') in 0.023320 seconds 
+  Import took 0.027822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/OneWay 1.mat
+  artifactKey: Guid(c3aca3c91bf9042c9aa3acce6a61a7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/OneWay 1.mat using Guid(c3aca3c91bf9042c9aa3acce6a61a7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ae85a5e81696afabcad76882c4f39e') in 0.018193 seconds 
+  Import took 0.029920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/RedBrick.mat
+  artifactKey: Guid(a0805ad16229a4a169c5d7731e127e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/RedBrick.mat using Guid(a0805ad16229a4a169c5d7731e127e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411bae672c2dc9243a375dc3e04b1ff1') in 0.019436 seconds 
+  Import took 0.023615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/RustySteel 1.mat
+  artifactKey: Guid(66b71c98508f346c9acca9825b01b4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/RustySteel 1.mat using Guid(66b71c98508f346c9acca9825b01b4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb38d4bdbd791c632d37b5a876d62f2e') in 0.018022 seconds 
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/TLA.mat
+  artifactKey: Guid(138580092a4fa4ebfaa686e962e78c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/TLA.mat using Guid(138580092a4fa4ebfaa686e962e78c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09da7be646f2c62c5ef0c989ac54b94') in 0.017832 seconds 
+  Import took 0.021992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/RustySteel.mat
+  artifactKey: Guid(413e570e7937649fd994f92b1d085a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/RustySteel.mat using Guid(413e570e7937649fd994f92b1d085a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f7b8959c1d217499f14e6f75d68f2') in 0.019196 seconds 
+  Import took 0.023976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Detour.mat
+  artifactKey: Guid(8cd8b6bc1d46945ee9adee0f55234e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Detour.mat using Guid(8cd8b6bc1d46945ee9adee0f55234e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc11e9754099ff3e7542834d1bec925') in 0.021085 seconds 
+  Import took 0.025707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/TexturesCom_Metal_Medieval_512_albedo 1.mat
+  artifactKey: Guid(6fef2fe08cf92420fa8a11a858e17830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/TexturesCom_Metal_Medieval_512_albedo 1.mat using Guid(6fef2fe08cf92420fa8a11a858e17830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0edcc2c725c8d3f0adf441ad9211bd') in 0.015611 seconds 
+  Import took 0.018952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/OrangePaint.mat
+  artifactKey: Guid(7fe64ea2f8618403aa539f310674871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/OrangePaint.mat using Guid(7fe64ea2f8618403aa539f310674871f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60950dc2ce36e2605e41db189127a142') in 0.018940 seconds 
+  Import took 0.023421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Grey Paint.mat
+  artifactKey: Guid(7003f00618f0e41eeb74be74ece156f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Grey Paint.mat using Guid(7003f00618f0e41eeb74be74ece156f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb2e0ac74a88e82bb7fcd37e2a7439b') in 0.013589 seconds 
+  Import took 0.017044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/DTA.mat
+  artifactKey: Guid(ea1e02adec22a4e479d7fe5d03b23527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/DTA.mat using Guid(ea1e02adec22a4e479d7fe5d03b23527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7e7fea1729ffeae24dbc787cacc916') in 0.018272 seconds 
+  Import took 0.031726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Wood.mat
+  artifactKey: Guid(07ab8fa10685c4018acf3f1d2ca05b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Wood.mat using Guid(07ab8fa10685c4018acf3f1d2ca05b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb318781628c7d56706fe8a9448fcf28') in 0.027505 seconds 
+  Import took 0.031162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Glass.mat
+  artifactKey: Guid(543335dea97e74bcf81c6423b732dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Glass.mat using Guid(543335dea97e74bcf81c6423b732dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba9d3ee7476265e2d5dc3f49a944c94') in 0.013366 seconds 
+  Import took 0.017136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/LeftTurn.mat
+  artifactKey: Guid(77219e745c06c440a81d9f95f9b8114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/LeftTurn.mat using Guid(77219e745c06c440a81d9f95f9b8114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd065de0ef9ee7f2a9f15303d930d8624') in 0.025535 seconds 
+  Import took 0.041952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Walk.mat
+  artifactKey: Guid(fa91c7f3b6307406cb119eec760832d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Walk.mat using Guid(fa91c7f3b6307406cb119eec760832d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af7d7f6894a42392a9fc3119dad9d14') in 0.018037 seconds 
+  Import took 0.021230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Wood 2.mat
+  artifactKey: Guid(68eac1b4aaf724c3d91296bc5dcfbde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Wood 2.mat using Guid(68eac1b4aaf724c3d91296bc5dcfbde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83731d088ed689bae38a05092deb1e5b') in 0.018432 seconds 
+  Import took 0.021715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/OrangePaint 1.mat
+  artifactKey: Guid(5ffc1e249f1064ca590edee3038eb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/OrangePaint 1.mat using Guid(5ffc1e249f1064ca590edee3038eb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611f6008c9642cdda96e77a325b808e5') in 0.018414 seconds 
+  Import took 0.023832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/RightTurn.mat
+  artifactKey: Guid(ab17ede91ddf84f4087cef8f1acef3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/RightTurn.mat using Guid(ab17ede91ddf84f4087cef8f1acef3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa495757d04adb5b42ae2e1d4bf3c6b5') in 0.017904 seconds 
+  Import took 0.021515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Road.mat
+  artifactKey: Guid(497c2d087c9ee4f8aa9f37ef9d91b2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Road.mat using Guid(497c2d087c9ee4f8aa9f37ef9d91b2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d02d1e038698243817301d7e250c97') in 0.018022 seconds 
+  Import took 0.030528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/100SL.mat
+  artifactKey: Guid(eb86eef59b04d4572b19429a6bf3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/100SL.mat using Guid(eb86eef59b04d4572b19429a6bf3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1b1506224c332c4e10ae92feb91cff') in 0.018884 seconds 
+  Import took 0.022173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Detourahead Diffuse Color.mat
+  artifactKey: Guid(3c381888500cd4958961de0981e71514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Detourahead Diffuse Color.mat using Guid(3c381888500cd4958961de0981e71514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726ca5846cd6804edc744c629d14cec7') in 0.017618 seconds 
+  Import took 0.022744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/OneWay.mat
+  artifactKey: Guid(a7f581ee24cd04ff990fb4a79b01931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/OneWay.mat using Guid(a7f581ee24cd04ff990fb4a79b01931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4ebb1c84dc0bf51c52db63c5d18a0f') in 0.018814 seconds 
+  Import took 0.027288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/DontWalk.mat
+  artifactKey: Guid(5242988dbba924b089d437209cb92f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/DontWalk.mat using Guid(5242988dbba924b089d437209cb92f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd832fcb12b720fb7c6b7bf56c3aa8369') in 0.019612 seconds 
+  Import took 0.023361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/50SL.mat
+  artifactKey: Guid(56c0ae10b2fa74051bf48532fb692813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/50SL.mat using Guid(56c0ae10b2fa74051bf48532fb692813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37d6f4de288c4977ed741e21b32de52') in 0.024483 seconds 
+  Import took 0.027505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/Yield.mat
+  artifactKey: Guid(4925b6bcce1dc4b2b8febc4d948d4c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/Yield.mat using Guid(4925b6bcce1dc4b2b8febc4d948d4c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff67b982ade09207338daf36f9183d7') in 0.022895 seconds 
+  Import took 0.028109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/GreenLight.mat
+  artifactKey: Guid(27507546ca8484a42b7e0e58d3012887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/GreenLight.mat using Guid(27507546ca8484a42b7e0e58d3012887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b637bee8e668b4ac2793599652ae89a2') in 0.020456 seconds 
+  Import took 0.024929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/TexturesCom_Metal_Medieval_512_albedo 2.mat
+  artifactKey: Guid(bac73da094461994390af38f9587f943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/TexturesCom_Metal_Medieval_512_albedo 2.mat using Guid(bac73da094461994390af38f9587f943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeca4ea12db5428365b057e291964eb') in 0.020339 seconds 
+  Import took 0.023345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/YellowPaiint 1.mat
+  artifactKey: Guid(ada1ebc47e63c460291bbaed0c9dcf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/YellowPaiint 1.mat using Guid(ada1ebc47e63c460291bbaed0c9dcf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c232adab03f4f1a91ed6e8841fb6eec4') in 0.022233 seconds 
+  Import took 0.027226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/BlackPaint.mat
+  artifactKey: Guid(18a992811b6774a84a3cb0c76dfea090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/BlackPaint.mat using Guid(18a992811b6774a84a3cb0c76dfea090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84247c8b53edbb6eaa301b49f2829a51') in 0.019474 seconds 
+  Import took 0.023539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/RedPaint.mat
+  artifactKey: Guid(1013c18ed55ee46d7bede6936bb49c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/RedPaint.mat using Guid(1013c18ed55ee46d7bede6936bb49c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6008bc161c69868005ee98b17dfcf5ea') in 0.021225 seconds 
+  Import took 0.024989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/WrongWay.mat
+  artifactKey: Guid(6432a8dd8c6b341ada46f6287c7dc7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/WrongWay.mat using Guid(6432a8dd8c6b341ada46f6287c7dc7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea430ae986b08a707f97435cf5222aa4') in 0.020306 seconds 
+  Import took 0.023734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Traffic Essentials Asset Pack/Materials/YellowLight.mat
+  artifactKey: Guid(fde0d27108135471a8669b6a7bd7fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traffic Essentials Asset Pack/Materials/YellowLight.mat using Guid(fde0d27108135471a8669b6a7bd7fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a020fd73e3189c2156f38c2c1ba7aed') in 0.026967 seconds 
+  Import took 0.030623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.367540 seconds.
+  path: Assets/Textures/road_road_0021_02_tiled_s.jpg
+  artifactKey: Guid(2d7e5f0b06fe8ef48a1dd0571f55076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/road_road_0021_02_tiled_s.jpg using Guid(2d7e5f0b06fe8ef48a1dd0571f55076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507a45bc2997d514e193807c22e22602') in 0.014860 seconds 
+  Import took 0.067117 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
