@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
@@ -16,29 +17,29 @@ public class Flashlight : MonoBehaviour
 
     private GameObject batteryObj;
     
-    [SerializeField] private Light flashLight;
-
+    
+    [Header("Battery")]
     [SerializeField] private int maxBatteries = 3;
     [SerializeField] private int currentBatteries = 1;
-
+    
+    [Header("Energy Properties")]
     [SerializeField] private float maxEnergy = 100f;
     [SerializeField] private float currentEnergy;
     [SerializeField] private float energyUsed;
-
     [SerializeField] private float energyConsumption = 0.5f;
-
     [SerializeField] private float maxIntensity;
-
-    [SerializeField] private Text batteryText;
-    [SerializeField] private Text pickupText;
-
-    private bool flashEnabled;
-
+    
+    [Header("UI")]
+    [SerializeField] private Light flashLight;
+    [SerializeField] private TMP_Text batteryText;
+    [SerializeField] private TMP_Text pickupText;
     [SerializeField] private AudioSource toggleSound;
     [SerializeField] private AudioSource reloadSound;
-
+    [SerializeField] private AudioSource collectSound;
     [SerializeField] private Image batteryVisual;
     [SerializeField] private Sprite[] batterySprites = new Sprite[6];
+    
+    private bool flashEnabled;
 
     #endregion
 
@@ -112,6 +113,7 @@ public class Flashlight : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.E))
             {
+                collectSound.Play();
                 currentBatteries++;
                 pickupText.text = "";
                 Destroy(batteryObj);

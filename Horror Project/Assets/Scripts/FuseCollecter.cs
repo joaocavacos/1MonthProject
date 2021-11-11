@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +13,7 @@ public class FuseCollecter : MonoBehaviour
     [SerializeField] private int maxFuses;
     public int currentFuses;
     
-    [SerializeField] private Text fusesCountText;
+    [SerializeField] private TMP_Text fusesCountText;
     
     [SerializeField] private AudioSource pickSound;
     float currentAlpha = 1;

@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ampoule_color
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _EMISSION _GLOSSINESS_FROM_BASE_ALPHA _NORMALMAP _SPECGLOSSMAP
-    _SPECULARHIGHLIGHTS_OFF
+  m_ShaderKeywords: _EMISSION _NORMALMAP _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -118,7 +117,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.9485294, g: 0.8504057, b: 0.5300605, a: 1}
     - _Color: {r: 0.9485294, g: 0.8504057, b: 0.5300605, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 0.971638, b: 0.7216981, a: 1}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
