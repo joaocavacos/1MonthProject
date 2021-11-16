@@ -17,7 +17,7 @@ public class Code : MonoBehaviour
     private Material codeCorrect;
     public GameObject codeObj;
     
-    [SerializeField] private Text promptText;
+    [SerializeField] private TMP_Text promptText;
     [SerializeField] private TMP_Text codeCheckText;
 
 

@@ -27,11 +27,17 @@ public class Movement : MonoBehaviour
     
     private Vector3 movement;
     private Vector3 velocity;
+
+    [Header("Crouching")] 
+    [SerializeField] private float crouchHeight = 0.75f;
+    [SerializeField] private float standHeight = 1.25f;
+    [SerializeField] private float crouchSpeed;
+    public bool isCrouching;
     
-    [Header("Jumping properties")]
-    [SerializeField] private float jumpHeight;
+    /*[Header("Jumping properties")]
+    [SerializeField] private float jumpHeight;*/
+    
     [SerializeField] private LayerMask groundMask;
-    
     private bool isGrounded;
 
     [Header("Head Bobbing")] 
@@ -63,11 +69,21 @@ public class Movement : MonoBehaviour
         CheckGrounded();
         Move();
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        /*if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Jump();
+        }*/
+
+        if (Input.GetKey(KeyCode.C) && isGrounded)
+        {
+            Crouch();
         }
-        
+        else
+        {
+            controller.height = standHeight;
+            isCrouching = false;
+        }
+
         HeadBobMovement();
      
     }
@@ -92,7 +108,7 @@ public class Movement : MonoBehaviour
             walkSound.Pause();
         }
         
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && !isCrouching)
         {
             if (currentStamina > 0 && currentStamina <= 100)
             {
@@ -104,7 +120,7 @@ public class Movement : MonoBehaviour
             }
             else if (currentStamina <= 0)
             {
-                controller.Move(movement * (walkSpeed * Time.deltaTime));
+                controller.Move(movement * walkSpeed * Time.deltaTime);
             }
 
             staminaSlider.value = currentStamina;
@@ -134,10 +150,17 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void Jump()
+    void Crouch()
+    {
+        isCrouching = true;
+        controller.height = crouchHeight;
+        controller.Move(movement * crouchSpeed * Time.deltaTime);
+    }
+
+    /*void Jump()
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-    }
+    }*/
 
     void HeadBobMovement()
     {

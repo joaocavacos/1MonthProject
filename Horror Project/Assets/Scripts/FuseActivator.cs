@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class FuseActivator : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class FuseActivator : MonoBehaviour
     private int requiredFuses = 3;
 
     public GameObject fusesActiveObj;
-    public Text fusesText;
+    public TMP_Text fusesText;
     
     bool fusesActive;
     
