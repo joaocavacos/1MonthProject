@@ -150,7 +150,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void Crouch()
+    void Crouch() //needs fixing
     {
         isCrouching = true;
         controller.height = crouchHeight;

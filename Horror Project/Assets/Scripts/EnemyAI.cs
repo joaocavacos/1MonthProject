@@ -28,12 +28,17 @@ public class EnemyAI : MonoBehaviour
     public GameObject scareCamera;
     private bool isJumpscare;
 
+    [Header("Sanity")]
+    private SanitySystem _sanitySystem;
+    [SerializeField] private float sanityLoss;
+
 
 
     void Start()
     {
         enemyAgent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        _sanitySystem = GameObject.FindGameObjectWithTag("Player").GetComponent<SanitySystem>();
     }
 
     void Update()
@@ -84,6 +89,7 @@ public class EnemyAI : MonoBehaviour
     
     private void Chase()
     {
+        _sanitySystem.DecreaseSanity(0.05f);
         enemyAgent.SetDestination(player.position);
         enemyAgent.speed = 4f;
         enemyObj.GetComponent<Animator>().Play("Fast Run");

@@ -282,6 +282,8 @@ GameObject:
   - component: {fileID: 5715101376579093246}
   - component: {fileID: 5715101376579093244}
   - component: {fileID: 5715101376579093245}
+  - component: {fileID: 1094098155176976590}
+  - component: {fileID: 7663203936752411977}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -482,6 +484,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 3, z: 2.5}
   m_Center: {x: 0, y: -0.73, z: 0}
+--- !u!114 &1094098155176976590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5715101376579093237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ff85ededb7a74a851372e0e7b89e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sanitySlider: {fileID: 0}
+  currentSanity: 0
+--- !u!114 &7663203936752411977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5715101376579093237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf28c48c4071f440984b7686ffb3292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pillText: {fileID: 0}
+  currentPills: 5
 --- !u!1 &5715101377001372482
 GameObject:
   m_ObjectHideFlags: 0
