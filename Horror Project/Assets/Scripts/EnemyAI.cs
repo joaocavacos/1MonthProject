@@ -7,10 +7,11 @@ using Random = UnityEngine.Random;
 public class EnemyAI : MonoBehaviour
 {
     [Header("Player and Enemy Objects")]
-    private Transform player;
+    private GameObject player;
     private NavMeshAgent enemyAgent;
     public GameObject enemyObj;
     public LayerMask isGround, isPlayer;
+    public GameOver gameOver;
 
     [Header("Patrolling")]
     public Vector3 walkPoint;
@@ -37,7 +38,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         enemyAgent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player");
         _sanitySystem = GameObject.FindGameObjectWithTag("Player").GetComponent<SanitySystem>();
     }
 
@@ -60,7 +61,7 @@ public class EnemyAI : MonoBehaviour
     private void Patrolling()
     {
         enemyObj.GetComponent<Animator>().Play("Walking");
-        enemyAgent.speed = 2f;
+        enemyAgent.speed = 3f;
         
         if (!walkPointSet) SearchWalkPoint();
         else
@@ -90,8 +91,8 @@ public class EnemyAI : MonoBehaviour
     private void Chase()
     {
         _sanitySystem.DecreaseSanity(0.05f);
-        enemyAgent.SetDestination(player.position);
-        enemyAgent.speed = 4f;
+        enemyAgent.SetDestination(player.transform.position);
+        enemyAgent.speed = 5f;
         enemyObj.GetComponent<Animator>().Play("Fast Run");
     }
     
@@ -99,7 +100,7 @@ public class EnemyAI : MonoBehaviour
     {
         //enemy stops when reached
         enemyAgent.SetDestination(transform.position);
-        transform.LookAt(player);
+        transform.LookAt(player.transform);
         StartCoroutine(JumpscareCoroutine());
     }
 
@@ -108,9 +109,13 @@ public class EnemyAI : MonoBehaviour
         jumpscareSound.Play();
         scareCamera.SetActive(true);
         enemyObj.SetActive(false);
-        yield return new WaitForSeconds(1.09f);
+        yield return new WaitForSeconds(1.2f);
+        //Game Over
         scareCamera.SetActive(false);
-        enemyObj.SetActive(true);
+        player.SetActive(false);
+        //enemyObj.SetActive(true);
+        gameOver.GameOverActivate();
+        
     }
 
 

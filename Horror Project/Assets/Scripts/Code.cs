@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Timers;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Code : MonoBehaviour
 {
@@ -13,26 +13,18 @@ public class Code : MonoBehaviour
     public string codeCombination;
 
     public TMP_InputField codeInputField;
-    
-    private Material codeCorrect;
-    public GameObject codeObj;
+    public GameObject fence;
+    public AudioSource openSound, wrongSound;
     
     [SerializeField] private TMP_Text promptText;
     [SerializeField] private TMP_Text codeCheckText;
-
-
-    void Start()
-    {
-        codeCorrect = codeObj.GetComponent<Renderer>().material;
-        codeCorrect.color = Color.red;
-    }
 
     public void SubmitCode()
     {
         if (codeCombination == codeInputField.text)
         {
-            codeCorrect.color = Color.green;
-            //play correct sound
+            fence.SetActive(false);
+            openSound.Play();
             codeCanvas.SetActive(false);
             Time.timeScale = 1;
             Cursor.lockState = CursorLockMode.Locked;//Code is correct
@@ -40,7 +32,7 @@ public class Code : MonoBehaviour
         else
         {
             codeCheckText.text = "Try again"; //Code is wrong
-            //play wrong sound
+            wrongSound.Play();
             codeCheckText.color = Color.red;
         }
     }

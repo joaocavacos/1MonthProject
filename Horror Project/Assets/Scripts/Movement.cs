@@ -5,6 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
+using TMPro;
 
 public class Movement : MonoBehaviour
 {
@@ -57,13 +58,13 @@ public class Movement : MonoBehaviour
 
     void Awake()
     {
+        Time.timeScale = 1f;
         controller = GetComponent<CharacterController>();
         walkSound.Pause();
         currentStamina = maxStamina;
         staminaSlider.maxValue = maxStamina;
         staminaSlider.value = maxStamina;
     }
-
     void Update()
     {
         CheckGrounded();

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CourtyardScene.unity
     guid: f7d22c5ca478ba4439088ff38e576d26
+  - enabled: 1
+    path: Assets/HQ Modular Interior Mansion/Scenes/HouseScene.unity
+    guid: 98283c1e740970b4eb49c1e589c1669f
   m_configObjects: {}

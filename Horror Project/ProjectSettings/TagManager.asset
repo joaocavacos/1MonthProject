@@ -9,6 +9,8 @@ TagManager:
   - Fuse
   - FuseBox
   - Pill
+  - Key
+  - House
   layers:
   - Default
   - TransparentFX

@@ -417,8 +417,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 72e34e93c6d892c40957c8fe0bff8c81, type: 2}
-  m_sharedMaterial: {fileID: -1174920570173073423, guid: 72e34e93c6d892c40957c8fe0bff8c81,
+  m_fontAsset: {fileID: 11400000, guid: 34c86c5518726d34681683cac8ebd69f, type: 2}
+  m_sharedMaterial: {fileID: 7017356377456755144, guid: 34c86c5518726d34681683cac8ebd69f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -443,8 +443,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1006,8 +1006,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Pills: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 72e34e93c6d892c40957c8fe0bff8c81, type: 2}
-  m_sharedMaterial: {fileID: -1174920570173073423, guid: 72e34e93c6d892c40957c8fe0bff8c81,
+  m_fontAsset: {fileID: 11400000, guid: 34c86c5518726d34681683cac8ebd69f, type: 2}
+  m_sharedMaterial: {fileID: 7017356377456755144, guid: 34c86c5518726d34681683cac8ebd69f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1032,8 +1032,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1370,7 +1370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -793.8, y: -522}
+  m_AnchoredPosition: {x: -793.8, y: -513.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6359228715495362041
@@ -1403,8 +1403,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0/1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 72e34e93c6d892c40957c8fe0bff8c81, type: 2}
-  m_sharedMaterial: {fileID: -1174920570173073423, guid: 72e34e93c6d892c40957c8fe0bff8c81,
+  m_fontAsset: {fileID: 11400000, guid: 34c86c5518726d34681683cac8ebd69f, type: 2}
+  m_sharedMaterial: {fileID: 7017356377456755144, guid: 34c86c5518726d34681683cac8ebd69f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1429,8 +1429,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
