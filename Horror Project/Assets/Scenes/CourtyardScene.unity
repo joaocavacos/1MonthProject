@@ -2154,6 +2154,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1289220664, guid: e75ad6072a453b74e81fdca5e16fa649, type: 3}
+      propertyPath: tip
+      value: You can restore sanity taking a pill (P)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905805967160242494, guid: e75ad6072a453b74e81fdca5e16fa649,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2905805967165162345, guid: e75ad6072a453b74e81fdca5e16fa649,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -2172,6 +2181,11 @@ PrefabInstance:
     - target: {fileID: 2905805968469829448, guid: e75ad6072a453b74e81fdca5e16fa649,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905805968551480558, guid: e75ad6072a453b74e81fdca5e16fa649,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5715101376579093237, guid: e75ad6072a453b74e81fdca5e16fa649,
@@ -2243,6 +2257,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5715101376579093247, guid: e75ad6072a453b74e81fdca5e16fa649,
+        type: 3}
+      propertyPath: maxSoundStep
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5715101376579093247, guid: e75ad6072a453b74e81fdca5e16fa649,
+        type: 3}
+      propertyPath: minSoundStep
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e75ad6072a453b74e81fdca5e16fa649, type: 3}
@@ -10161,11 +10185,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984573788}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.773984, y: 2.5795135, z: 2.608703}
-  m_Center: {x: -15.86184, y: 1.2037601, z: -9.225985}
+  m_Size: {x: 5.48498, y: 2.5795135, z: 4.7767134}
+  m_Center: {x: -15.955236, y: 1.2037601, z: -10.30999}
 --- !u!1001 &988771977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13435,6 +13459,16 @@ PrefabInstance:
       objectReference: {fileID: 1690389985}
     - target: {fileID: 688859165076494060, guid: 6f841a364db1fdf45b71aa43e6299165,
         type: 3}
+      propertyPath: walkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 688859165076494060, guid: 6f841a364db1fdf45b71aa43e6299165,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 688859165076494060, guid: 6f841a364db1fdf45b71aa43e6299165,
+        type: 3}
       propertyPath: scareCamera
       value: 
       objectReference: {fileID: 155496598}
@@ -15138,6 +15172,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -179.903
       objectReference: {fileID: 0}
+    - target: {fileID: 65006506123656086, guid: e88f569dc52dc73499246b7544614ce0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 145.53665
+      objectReference: {fileID: 0}
+    - target: {fileID: 65006506123656086, guid: e88f569dc52dc73499246b7544614ce0,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 100.930725
+      objectReference: {fileID: 0}
+    - target: {fileID: 65006506123656086, guid: e88f569dc52dc73499246b7544614ce0,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -72.76914
+      objectReference: {fileID: 0}
+    - target: {fileID: 65006506123656086, guid: e88f569dc52dc73499246b7544614ce0,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 21.538105
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e88f569dc52dc73499246b7544614ce0, type: 3}
 --- !u!4 &1471739104 stripped
@@ -15146,6 +15200,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1471739103}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1471739105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1973787003776858, guid: e88f569dc52dc73499246b7544614ce0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1471739103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1471739106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471739105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.8740206, y: 43.740204, z: 78.3356}
+  m_Center: {x: -3.9370103, y: 21.870102, z: 39.1678}
+--- !u!114 &1471739107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471739105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9280b6513b83e6d4e8dfed58fca7d9d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptText: {fileID: 155496596}
 --- !u!1001 &1481015843
 PrefabInstance:
   m_ObjectHideFlags: 0

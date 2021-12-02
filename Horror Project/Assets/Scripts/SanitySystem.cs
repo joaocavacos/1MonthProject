@@ -23,6 +23,8 @@ public class SanitySystem : MonoBehaviour
         if (currentSanity > 100) currentSanity = maxSanity;
         
         sanitySlider.value = currentSanity;
+
+        Debug.Log("Sanity:" + currentSanity);
     }
 
     public void DecreaseSanity(float value)

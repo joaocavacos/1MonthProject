@@ -158,8 +158,9 @@ MonoBehaviour:
   isPlayer:
     serializedVersion: 2
     m_Bits: 512
+  gameOver: {fileID: 0}
   walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 15
+  walkPointRange: 5
   sightRange: 7
   attackRange: 2.5
   playerinSightRange: 0

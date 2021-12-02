@@ -18,6 +18,9 @@ public class EnemyAI : MonoBehaviour
     private bool walkPointSet;
     public float walkPointRange;
 
+    public float chaseSpeed;
+    public float walkSpeed;
+
     [Header("States")]
     public float sightRange;
     public float attackRange;
@@ -61,7 +64,7 @@ public class EnemyAI : MonoBehaviour
     private void Patrolling()
     {
         enemyObj.GetComponent<Animator>().Play("Walking");
-        enemyAgent.speed = 3f;
+        enemyAgent.speed = walkSpeed;
         
         if (!walkPointSet) SearchWalkPoint();
         else
@@ -92,7 +95,7 @@ public class EnemyAI : MonoBehaviour
     {
         _sanitySystem.DecreaseSanity(0.05f);
         enemyAgent.SetDestination(player.transform.position);
-        enemyAgent.speed = 5f;
+        enemyAgent.speed = chaseSpeed;
         enemyObj.GetComponent<Animator>().Play("Fast Run");
     }
     

@@ -12,6 +12,7 @@ public class FuseActivator : MonoBehaviour
     private int requiredFuses = 3;
 
     public GameObject fusesActiveObj;
+    public GameObject lightsObj;
     public TMP_Text fusesText;
     
     bool fusesActive;
@@ -33,6 +34,7 @@ public class FuseActivator : MonoBehaviour
                     fusesActiveObj.SetActive(true);
                     fuseCollecter.currentFuses = 0;
                     fusesActive = true;
+                    lightsObj.SetActive(true);
                     //Power on
                 }
             }

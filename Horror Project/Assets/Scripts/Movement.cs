@@ -25,17 +25,19 @@ public class Movement : MonoBehaviour
     [SerializeField] private float runSpeed;
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private float groundDist;
+    [SerializeField] private float minSoundStep;
+    [SerializeField] private float maxSoundStep;
     
     private Vector3 movement;
     private Vector3 velocity;
 
-    [Header("Crouching")] 
+    /*[Header("Crouching")] 
     [SerializeField] private float crouchHeight = 0.75f;
     [SerializeField] private float standHeight = 1.25f;
     [SerializeField] private float crouchSpeed;
     public bool isCrouching;
     
-    /*[Header("Jumping properties")]
+    [Header("Jumping properties")]
     [SerializeField] private float jumpHeight;*/
     
     [SerializeField] private LayerMask groundMask;
@@ -70,12 +72,12 @@ public class Movement : MonoBehaviour
         CheckGrounded();
         Move();
 
-        /*if (Input.GetButtonDown("Jump") && isGrounded)
+        /*if (Input.GetButtonDown("Jump") && isGrounded) Jump
         {
             Jump();
         }*/
 
-        if (Input.GetKey(KeyCode.C) && isGrounded)
+        /*if (Input.GetKey(KeyCode.C) && isGrounded) Crouch
         {
             Crouch();
         }
@@ -84,6 +86,7 @@ public class Movement : MonoBehaviour
             controller.height = standHeight;
             isCrouching = false;
         }
+        */
 
         HeadBobMovement();
      
@@ -100,7 +103,7 @@ public class Movement : MonoBehaviour
         {
             isWalking = true;
             walkSound.pitch = UnityEngine.Random.Range(0.8f, 1.1f);
-            walkSound.volume = UnityEngine.Random.Range(0.4f, 0.6f);
+            walkSound.volume = UnityEngine.Random.Range(minSoundStep, maxSoundStep);
             walkSound.UnPause();
         }
         else
@@ -109,7 +112,7 @@ public class Movement : MonoBehaviour
             walkSound.Pause();
         }
         
-        if (Input.GetKey(KeyCode.LeftShift) && !isCrouching)
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             if (currentStamina > 0 && currentStamina <= 100)
             {
@@ -151,14 +154,14 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void Crouch() //needs fixing
+    /*void Crouch() //needs fixing
     {
         isCrouching = true;
         controller.height = crouchHeight;
         controller.Move(movement * crouchSpeed * Time.deltaTime);
     }
 
-    /*void Jump()
+    void Jump()
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }*/
